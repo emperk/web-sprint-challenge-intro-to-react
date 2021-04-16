@@ -1,0 +1,8 @@
+.charactersList {
+    display: flex;
+    flex-direction: column;
+}
+
+.characters {
+    color: 'white';
+}
