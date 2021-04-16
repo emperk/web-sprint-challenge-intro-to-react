@@ -4,12 +4,16 @@ import Character from "./Character"
 import "./Characters.css";
 
 const Characters = (props) => {
-  const { data } = props;
+  const { data, action } = props;
   console.log("data", data)
   return (
     <div className="charactersList">
       {data && data.map((character) => 
-        <Character key={character.name} character={character} />
+        <Character key={character.name} character={character}>
+          <button onClick={() => action(data.character)}>
+            More Info
+          </button>
+        </Character>
       )}
     </div>
   );
