@@ -9,11 +9,11 @@ const Characters = (props) => {
   return (
     <div className="charactersList">
       {data && data.map((character) => 
-        <Character key={character.name} character={character}>
-          <button onClick={() => action(data.character)}>
-            More Info
-          </button>
-        </Character>
+        <Character 
+          key={character.name} 
+          character={character}
+          action={action} 
+        />
       )}
     </div>
   );
