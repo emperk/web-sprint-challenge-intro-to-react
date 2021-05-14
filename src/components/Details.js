@@ -24,7 +24,8 @@ const Details = ({ character, close }) => {
       <div>Mass: {character.mass}</div>
       <div>Skin Color: {character.skin_color}</div>
       <div>Hair Color: {character.hair_color}</div>
-      <div></div>
+      <div>Eye Color: {character.eye_color}</div>
+      <div>Birth Year: {character.birth_year}</div>
     </StyledDetails>
   );
 };

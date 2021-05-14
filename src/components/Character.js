@@ -17,14 +17,19 @@ const StyledCharacter = styled.div`
   justify-content: space-between;
 `;
 
+const StyledButton = styled.button`
+  font-family: 'Zen Dots', cursive;
+`
+
 const Character = (props) => {
-  const { character, action, selectedCharacterName, closeDetails } = props;
+  const { character, action, selectedCharacterName, closeDetails} = props;
   console.log("here is the character", character);
   return (
     <>
       <StyledCharacter className="character">
         <span className="name">{character.name}</span>
-        <button onClick={() => action(character.name)}>More Info</button>
+        <StyledButton onClick={() => action(character.name)}>More Info</StyledButton>
+        {/* <StyledButton onClick={closeDetails}>Close Tab</StyledButton> */}
       </StyledCharacter>
       {selectedCharacterName === character.name && (
         <Details
