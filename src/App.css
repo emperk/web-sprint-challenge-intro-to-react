@@ -5,4 +5,20 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+body {
+  font-family: 'Zen Dots', serif;
+  color: #443e3e;
+}
+
+/* .charactersList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+}
+
+.characters {
+  color: white;
+} */
 /* write your parent styles in here for your App.js */
