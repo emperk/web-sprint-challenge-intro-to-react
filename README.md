@@ -31,12 +31,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  ANSWER: React JS handles data better and faster. It responds to data changes pretty much instantly and renders the right componenets for a much smoother user experience. 
 
-1. Describe component state.
+2. Describe component state.
+  ANSWER: A component state is an object that holds info that may or may not change.
 
-1. Describe props.
+3. Describe props.
+  ANSWER: When we want to pass info held in state from one component to another, we pass them as props. 
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  ANSWER: Side effects are anything that affect something outside the scope of the function. Such as: fetching data from an API, logging, timers, and manually manipulating the DOM.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -59,16 +63,16 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use the following API:
+- [ X] Use the following API:
   - [Star Wars API](https://swapi.dev/)
-- [ ] Use the documentation and Google to learn how to fetch characters from your API.
-- [ ] Obtain a list of characters. One or several requests might be needed, depending on the API.
-- [ ] Set the list of characters into state.
-- [ ] Render your characters to the screen:
-  - Build a React component named 'Character' to render an individual character.
-  - Map over the list in state, and for each character render a Character to the page.
-  - You must display at least one element for each character in the data set.
-  - The elements must be styled with **styled-components** - don't rely on browser default styles.
+- [ X] Use the documentation and Google to learn how to fetch characters from your API.
+- [X ] Obtain a list of characters. One or several requests might be needed, depending on the API.
+- [X ] Set the list of characters into state.
+- [X ] Render your characters to the screen:
+  - [X]Build a React component named 'Character' to render an individual character.
+  - [X]Map over the list in state, and for each character render a Character to the page.
+  - [X]You must display at least one element for each character in the data set.
+  - [X]The elements must be styled with **styled-components** - don't rely on browser default styles.
 
 ### Required best practices
 
